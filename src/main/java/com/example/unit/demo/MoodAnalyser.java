@@ -16,7 +16,7 @@ public class MoodAnalyser {
 	
 	public static Mood analyseMood(String sentence) {
 		
-		if (sentence == null || sentence == "") {
+		if (sentence == null || sentence.isEmpty()) {
 			return null;
 		}
 		
